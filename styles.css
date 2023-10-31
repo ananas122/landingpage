@@ -54,25 +54,31 @@
 
 /* Styles for Features Section */
 .feature {
-  display: inline-block;
-  width: 30%;
-  padding: 20px;
-  text-align: center;
-  vertical-align: top;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33.33% - 40px); /* Largeur ajustée pour tenir compte de la marge */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
+
 
 .feature img {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Pour rendre les images légèrement arrondies */
 }
 
+
 .feature:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Styles for About Section */
 #about h2, #about h3 {
