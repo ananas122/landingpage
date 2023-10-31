@@ -75,3 +75,16 @@
     new WOW().init();
   }
 })();
+
+// Attente que le document soit prêt
+document.addEventListener('DOMContentLoaded', function() {
+  // Sélection de tous les éléments avec la classe "feature"
+  const features = document.querySelectorAll('.feature');
+
+  // Parcourir chaque élément et ajouter une classe pour le fade-in
+  features.forEach((feature, index) => {
+    setTimeout(() => {
+      feature.classList.add('fade-in');
+    }, index * 300); // Délai entre chaque animation
+  });
+});
