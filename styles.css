@@ -1,0 +1,60 @@
+/* Styles for Header */
+#navbar {
+  background-color: #ffff
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Styles for Hero Section */
+#hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+}
+
+.app-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Add more styles here */
+/* ... existing CSS ... */
+
+/* Styles for Features Section */
+.feature {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  height: auto;
+}
+
+/* Styles for About Section */
+#about {
+  text-align: center;
+  padding: 50px;
+}
+
+/* ... existing CSS ... */
