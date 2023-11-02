@@ -95,9 +95,9 @@
 }
 
 #about a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    color: #007bff; /* Couleur du texte bleu */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: color 0.3s ease-in-out; /* Transition pour la couleur du texte */
 }
 
 #about a:hover {
